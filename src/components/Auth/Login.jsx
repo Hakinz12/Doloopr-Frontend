@@ -64,6 +64,14 @@ const Login = () => {
             </div>
         </div>
     );
+    // Inside the form, after the password input
+<div style={{ textAlign: 'right', marginTop: '4px', marginBottom: '16px' }}>
+    <Link to="/forgot-password" style={{ fontSize: '14px', color: '#667eea', textDecoration: 'none' }}>
+        Forgot Password?
+    </Link>
+</div>
+    
 };
+
 
 export default Login;
